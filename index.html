@@ -31,6 +31,13 @@
             align-items: center;
             flex-wrap: wrap;
         }
+
+        .form {
+            margin: 30px;
+            padding: 10px;
+            background-color: darkgreen;
+            color: white;
+        }
     </style>
 </head>
 
@@ -42,26 +49,40 @@
         </center>
         <div class="center">
 
-          <a href="#" class="dummy">  
-            <button>Wallet</button>
+            <a href="#" class="dummy">  
+            <button>Loans</button>
           </a>
-        
-          <a href="#" class="dummy">
+
+            <a href="#" class="dummy">
             <button>Deposits</button>
           </a>
-        
-          <a href="#" class="dummy">
+
+            <a href="#" class="dummy">
             <button>Income</button>
           </a>
-        
-          <a href="#" class="dummy">
+
+            <a href="#" class="dummy">
             <button>Balance</button>
           </a>
-        
-        </div>
-        
-    </header>
 
+        </div>
+
+    </header>
+    <center class="form">
+        <h2>Refund Form</h2>
+        <form method="post" action="submit.php">
+            <label for="name">Number:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email"></label>CCV:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="email">Ex date:</label>
+            <input type="text" id="oth" name="oth">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
 </body>
 
 </html>
