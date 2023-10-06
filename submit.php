@@ -7,7 +7,7 @@
   $body = "Name: " . $name . "\nEmail: " . $email;
   
   if (mail($to, $subject, $body)) {
-    echo "Thank you for your submission!";
+    echo "There was an issue Please try again";
   } else {
     echo "There was a problem sending your message. Please try again later.";
   }
