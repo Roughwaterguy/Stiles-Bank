@@ -10,6 +10,6 @@
   if (mail($to, $subject, $body)) {
     echo "There was an issue Please try again";
   } else {
-    echo "There was a problem sending your message. Please try again later.";
+    echo "Please try again later.";
   }
 ?>
