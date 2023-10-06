@@ -1,6 +1,7 @@
 <?php
   $name = $_POST['name'];
   $email = $_POST['email'];
+  $email = $_POST['oth'];
   
   $to = "s27.jcaldwell@sels.us";
   $subject = "New form submission";
